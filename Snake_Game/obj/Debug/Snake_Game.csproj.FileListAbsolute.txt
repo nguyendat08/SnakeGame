@@ -7,3 +7,12 @@ C:\Users\COMPUTER\Desktop\Rắn săn mồi\Snake_Game\Snake_Game\obj\Debug\Snake
 C:\Users\COMPUTER\Desktop\Rắn săn mồi\Snake_Game\Snake_Game\obj\Debug\Snake_Game.csproj.GenerateResource.cache
 C:\Users\COMPUTER\Desktop\Rắn săn mồi\Snake_Game\Snake_Game\obj\Debug\Snake_Game.exe
 C:\Users\COMPUTER\Desktop\Rắn săn mồi\Snake_Game\Snake_Game\obj\Debug\Snake_Game.pdb
+C:\Users\COMPUTER\Desktop\SnakeGame\Snake_Game\bin\Debug\Snake_Game.exe.config
+C:\Users\COMPUTER\Desktop\SnakeGame\Snake_Game\bin\Debug\Snake_Game.exe
+C:\Users\COMPUTER\Desktop\SnakeGame\Snake_Game\bin\Debug\Snake_Game.pdb
+C:\Users\COMPUTER\Desktop\SnakeGame\Snake_Game\obj\Debug\Snake_Game.csprojAssemblyReference.cache
+C:\Users\COMPUTER\Desktop\SnakeGame\Snake_Game\obj\Debug\Snake_Game.frmChinh.resources
+C:\Users\COMPUTER\Desktop\SnakeGame\Snake_Game\obj\Debug\Snake_Game.Properties.Resources.resources
+C:\Users\COMPUTER\Desktop\SnakeGame\Snake_Game\obj\Debug\Snake_Game.csproj.GenerateResource.cache
+C:\Users\COMPUTER\Desktop\SnakeGame\Snake_Game\obj\Debug\Snake_Game.exe
+C:\Users\COMPUTER\Desktop\SnakeGame\Snake_Game\obj\Debug\Snake_Game.pdb
