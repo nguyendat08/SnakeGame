@@ -21,9 +21,9 @@ C:\Users\Chau Hung\Desktop\SnakeGame\Snake_Game\bin\Debug\Snake_Game.exe
 C:\Users\Chau Hung\Desktop\SnakeGame\Snake_Game\bin\Debug\Snake_Game.pdb
 C:\Users\Chau Hung\Desktop\SnakeGame\Snake_Game\obj\Debug\Snake_Game.csprojAssemblyReference.cache
 C:\Users\Chau Hung\Desktop\SnakeGame\Snake_Game\obj\Debug\Snake_Game.frmChinh.resources
-C:\Users\Chau Hung\Desktop\SnakeGame\Snake_Game\obj\Debug\Snake_Game.frmPlay.resources
 C:\Users\Chau Hung\Desktop\SnakeGame\Snake_Game\obj\Debug\Snake_Game.Properties.Resources.resources
 C:\Users\Chau Hung\Desktop\SnakeGame\Snake_Game\obj\Debug\Snake_Game.csproj.GenerateResource.cache
 C:\Users\Chau Hung\Desktop\SnakeGame\Snake_Game\obj\Debug\Snake_Game.csproj.CoreCompileInputs.cache
 C:\Users\Chau Hung\Desktop\SnakeGame\Snake_Game\obj\Debug\Snake_Game.exe
 C:\Users\Chau Hung\Desktop\SnakeGame\Snake_Game\obj\Debug\Snake_Game.pdb
+C:\Users\Chau Hung\Desktop\SnakeGame\Snake_Game\obj\Debug\Snake_Game.frmPlay.resources

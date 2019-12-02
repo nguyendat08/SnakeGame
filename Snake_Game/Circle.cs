@@ -8,7 +8,7 @@ namespace Snake_Game
 {
     class Circle
     {
-        public int X {get; set;}
+        public int X { get; set; }
         public int Y { get; set; }
 
         public Circle()

@@ -119,6 +119,7 @@
             this.Name = "frmChinh";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Snake_Game";
+            this.Load += new System.EventHandler(this.FrmChinh_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -25,10 +25,16 @@ namespace Snake_Game
 
         private void BtnPlay_Click(object sender, EventArgs e)
         {
-            frmPlay frmplay = new frmPlay();
-            frmplay.ShowDialog();
+            frmPlay play = new frmPlay() ;
+            play.ShowDialog ();
             this.Close();
 
         }
+
+        private void FrmChinh_Load(object sender, EventArgs e)
+        {
+        }
+
+      
     }
 }

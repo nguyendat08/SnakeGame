@@ -31,10 +31,10 @@
             this.components = new System.ComponentModel.Container();
             this.pnlScore = new System.Windows.Forms.Panel();
             this.pnlPlay = new System.Windows.Forms.Panel();
+            this.lblGameOver = new System.Windows.Forms.Label();
             this.GameTimer = new System.Windows.Forms.Timer(this.components);
             this.lblScore = new System.Windows.Forms.Label();
             this.lblSocre2 = new System.Windows.Forms.Label();
-            this.lblGameOver = new System.Windows.Forms.Label();
             this.pnlPlay.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,7 +53,15 @@
             this.pnlPlay.Name = "pnlPlay";
             this.pnlPlay.Size = new System.Drawing.Size(500, 500);
             this.pnlPlay.TabIndex = 2;
-            this.pnlPlay.Paint += new System.Windows.Forms.PaintEventHandler(this.PnlPlay_Paint);
+            // 
+            // lblGameOver
+            // 
+            this.lblGameOver.AutoSize = true;
+            this.lblGameOver.Location = new System.Drawing.Point(22, 16);
+            this.lblGameOver.Name = "lblGameOver";
+            this.lblGameOver.Size = new System.Drawing.Size(58, 13);
+            this.lblGameOver.TabIndex = 0;
+            this.lblGameOver.Text = "GameOver";
             // 
             // lblScore
             // 
@@ -74,16 +82,7 @@
             this.lblSocre2.Size = new System.Drawing.Size(0, 31);
             this.lblSocre2.TabIndex = 3;
             // 
-            // lblGameOver
-            // 
-            this.lblGameOver.AutoSize = true;
-            this.lblGameOver.Location = new System.Drawing.Point(22, 16);
-            this.lblGameOver.Name = "lblGameOver";
-            this.lblGameOver.Size = new System.Drawing.Size(58, 13);
-            this.lblGameOver.TabIndex = 0;
-            this.lblGameOver.Text = "GameOver";
-            // 
-            // frmPlay
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -93,8 +92,9 @@
             this.Controls.Add(this.pnlPlay);
             this.Controls.Add(this.pnlScore);
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "frmPlay";
+            this.Name = "Form1";
             this.Text = "frmPlay";
+            //this.Load += new System.EventHandler(this.Form1_Load_1);
             this.pnlPlay.ResumeLayout(false);
             this.pnlPlay.PerformLayout();
             this.ResumeLayout(false);

@@ -16,7 +16,7 @@ namespace Snake_Game
         //Perform a check to see if particular button is pressed
         public static bool KeyPressed(Keys key)
         {
-            if(keyTable[key] == null)
+            if (keyTable[key] == null)
             {
                 return false;
             }
