@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Circle.cs" />
     <Compile Include="frmChinh.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,8 +59,10 @@
     <Compile Include="frmPlay.Designer.cs">
       <DependentUpon>frmPlay.cs</DependentUpon>
     </Compile>
+    <Compile Include="Input.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Setting.cs" />
     <EmbeddedResource Include="frmChinh.resx">
       <DependentUpon>frmChinh.cs</DependentUpon>
     </EmbeddedResource>
