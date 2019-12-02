@@ -22,5 +22,13 @@ namespace Snake_Game
             MessageBox.Show("Are you sure!!!", "Warning");
             this.Close();
         }
+
+        private void BtnPlay_Click(object sender, EventArgs e)
+        {
+            frmPlay frmplay = new frmPlay();
+            frmplay.ShowDialog();
+            this.Close();
+
+        }
     }
 }

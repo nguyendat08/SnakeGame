@@ -43,7 +43,7 @@
             this.lblHighScore.ForeColor = System.Drawing.SystemColors.Window;
             this.lblHighScore.Location = new System.Drawing.Point(84, 48);
             this.lblHighScore.Name = "lblHighScore";
-            this.lblHighScore.Size = new System.Drawing.Size(127, 26);
+            this.lblHighScore.Size = new System.Drawing.Size(101, 21);
             this.lblHighScore.TabIndex = 2;
             this.lblHighScore.Text = "High Score:";
             // 
@@ -64,7 +64,7 @@
             this.label1.ForeColor = System.Drawing.Color.Maroon;
             this.label1.Location = new System.Drawing.Point(95, 112);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(349, 68);
+            this.label1.Size = new System.Drawing.Size(284, 55);
             this.label1.TabIndex = 4;
             this.label1.Text = "Snake Game";
             // 
@@ -78,6 +78,7 @@
             this.btnPlay.TabIndex = 5;
             this.btnPlay.Text = "Play";
             this.btnPlay.UseVisualStyleBackColor = false;
+            this.btnPlay.Click += new System.EventHandler(this.BtnPlay_Click);
             // 
             // btnQuit
             // 
@@ -97,13 +98,13 @@
             this.label2.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(130, 478);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(247, 16);
+            this.label2.Size = new System.Drawing.Size(199, 14);
             this.label2.TabIndex = 7;
             this.label2.Text = "*The soflware made by Dat - Lam - Hung";
             // 
             // frmChinh
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSlateGray;
             this.ClientSize = new System.Drawing.Size(482, 503);
@@ -114,7 +115,7 @@
             this.Controls.Add(this.lblScore_frmChinh);
             this.Controls.Add(this.lblHighScore);
             this.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "frmChinh";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Snake_Game";

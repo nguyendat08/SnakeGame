@@ -34,6 +34,8 @@
             this.GameTimer = new System.Windows.Forms.Timer(this.components);
             this.lblScore = new System.Windows.Forms.Label();
             this.lblSocre2 = new System.Windows.Forms.Label();
+            this.lblGameOver = new System.Windows.Forms.Label();
+            this.pnlPlay.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlScore
@@ -46,6 +48,7 @@
             // 
             // pnlPlay
             // 
+            this.pnlPlay.Controls.Add(this.lblGameOver);
             this.pnlPlay.Location = new System.Drawing.Point(2, 48);
             this.pnlPlay.Name = "pnlPlay";
             this.pnlPlay.Size = new System.Drawing.Size(500, 500);
@@ -71,6 +74,15 @@
             this.lblSocre2.Size = new System.Drawing.Size(0, 31);
             this.lblSocre2.TabIndex = 3;
             // 
+            // lblGameOver
+            // 
+            this.lblGameOver.AutoSize = true;
+            this.lblGameOver.Location = new System.Drawing.Point(22, 16);
+            this.lblGameOver.Name = "lblGameOver";
+            this.lblGameOver.Size = new System.Drawing.Size(58, 13);
+            this.lblGameOver.TabIndex = 0;
+            this.lblGameOver.Text = "GameOver";
+            // 
             // frmPlay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -83,6 +95,8 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmPlay";
             this.Text = "frmPlay";
+            this.pnlPlay.ResumeLayout(false);
+            this.pnlPlay.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -94,5 +108,6 @@
         private System.Windows.Forms.Timer GameTimer;
         private System.Windows.Forms.Label lblScore;
         private System.Windows.Forms.Label lblSocre2;
+        private System.Windows.Forms.Label lblGameOver;
     }
 }

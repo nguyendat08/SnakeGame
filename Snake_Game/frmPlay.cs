@@ -30,15 +30,14 @@ namespace Snake_Game
             //GameTimer.Interval = 1000 / Setting.Speed;
             //GameTimer.Tick += UpdateScreen();
             //GameTimer.Start();
-            UpdateScreen();
+            /*/*UpdateScreen*/;
             StartGame();
 
         }
 
-        private void UpdateScreen()
-        {
-            throw new NotImplementedException();
-        }
+        //private void UpdateScreen()
+        //{
+        //}
 
         private void UpdateScreen(object sender, EventArgs e)
         {
@@ -73,11 +72,40 @@ namespace Snake_Game
 
         private void MovePlayer()
         {
-            throw new NotImplementedException();
+            for(int i= Snake.Count -1; i >= 0; i--)
+            {
+                //Move Head
+                if(i ==0)
+                {
+                    switch(Setting.direction)
+                    {
+                        case Direction.Right:
+                            Snake[i].X++;
+                            break;
+                        case Direction.Left:
+                            Snake[i].X--;
+                            break;
+                        case Direction.Up:
+                            Snake[i].Y--;
+                            break;
+                        case Direction.Down:
+                            Snake[i].Y++;
+                            break;
+                    }
+                }
+
+                else
+                {
+                    //Move Body
+                    Snake[i].X = Snake[i - 1].X;
+                    Snake[i].Y = Snake[i - 1].Y;
+                }
+            }
         }
 
         private void StartGame()
         {
+            lblGameOver.Visible = false;
             //Set setting to default
             new Setting();
 
@@ -89,7 +117,7 @@ namespace Snake_Game
             Snake.Add(head);
             
             //When lblScore have setup, we could use code 
-            //lblScore.Text = Setting.Score.ToString();
+            lblScore.Text = Setting.Score.ToString();
             GenerateFood();
         }
 
@@ -141,7 +169,9 @@ namespace Snake_Game
             }
             else
             {
-                string GameOver = "Game Over";
+                string GameOver = "Game Over \nYour final score is:  " + Setting.Score + "\nPress Enter to try again";
+                lblGameOver.Text = GameOver;
+                lblGameOver.Visible = true;
             }
         }
 
